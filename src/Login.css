@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.login {
+    background-image: url("./images/register.jpg");
+    background-position: 80% 100%;
+    background-size: 200px 250px;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.mainContainer {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.mainContainer h2 {
+    text-align: center;
+}
+
+.inputContainer{
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+.inputbox{
+    padding: 5px;
+    width: 100%;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    border: transparent;
+    background-color: rgb(83, 11, 150) !important;
+    color: white !important;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:active {
+    color: white !important;
+    background-color: rgb(69, 26, 110) !important;
+}
+
+.errmsg {
+    color: red;
+}
+

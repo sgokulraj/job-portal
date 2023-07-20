@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sec {
+    background-image: url("./images/register.jpg");
+    background-position: 80% 80%;
+    background-size: 200px 250px;
+    background-repeat: no-repeat;
+}
+
+.main {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.main h2 {
+    text-align: center;
+}
+
+.formContainer {
+    margin: 20px;
+}
+
+
+input {
+    padding: 10px;
+    width: 100%;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btns {
+    border: transparent;
+    background-color: rgb(121, 15, 221);
+    color: white;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.btns:hover,
+.btns:active {
+    color: white;
+    background-color: rgb(69, 26, 110)
+}
+
+.errormsg {
+    color: red;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+
+}
+
+.userDetails {
+    background: white;
+    border-radius: 10px;
+    max-width: 80%;
+    padding: 50px;
+    text-align: center;
+}
+
+.userDetails p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

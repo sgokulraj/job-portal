@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (min-width:600px) {
+    .homeBg {
+        background-image: url("./images/search.jpg");
+        background-position: 0% 15%;
+        background-size: 300px 300px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+
+.homeContainer {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.filter {
+    max-width: 60%;
+    margin: 40px auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .filter {
+        max-width: 90%;
+        justify-content: center;
+    }
+}
+
+.jobList {
+    max-width: 100%;
+    margin-top: 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.jobList:hover {
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3);
+    border-left: 10px solid rgb(83, 11, 150);
+}
+
+#company {
+    display: inline-block;
+    background-color: rgb(83, 11, 150);
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.skill {
+    margin: 5px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.filterBtn {
+    cursor: pointer;
+}
